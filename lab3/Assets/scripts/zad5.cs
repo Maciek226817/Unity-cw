@@ -5,7 +5,7 @@ using UnityEngine;
 public class zad5 : MonoBehaviour
 {
     public GameObject objectToSpawn;
-    // Start is called before the first frame update
+    
     void Start()
     {
         for  (int i=0; i<10; i++)
@@ -16,7 +16,7 @@ public class zad5 : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
