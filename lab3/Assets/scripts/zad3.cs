@@ -16,13 +16,13 @@ public class zad3 : MonoBehaviour
     private Quaternion rotation2 = Quaternion.Euler(0, 180, 0);
     private Quaternion rotation3 = Quaternion.Euler(0, 270, 0);
     private Quaternion rotation4 = Quaternion.Euler(0, 0, 0);
-    // Start is called before the first frame update
+    
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (Vector3.Distance(transform.position, target1) < 1f)
